@@ -1,0 +1,27 @@
+1.  File: WareHouse.java
+    a)  Line: 8
+        code smell: mysterious naming
+        reason: 'int i' - this 'i' doesn't make any sense what this is
+
+2.  File: InventorySystem.java
+    a)  line: 41
+        code smell: long parameter list
+        reason: addProduct method takes too many parameters
+    b)  line: 44 - 67
+        code smell: nested conditionals
+        reason: too many nested if blocks
+    c)  line: 80, 84-88, 91-94
+        code smell: primitive obsession and magic numbers
+        reason: the primitive type integers and floats used in these lines like: 0.85, 0.95 are magic numbers
+        since they don't convey any meaningful name here
+    d)  line: 106, 114, 124
+        code smell: message chaining
+        reason: globalInventoryData.products.values() is message chaining
+    e)  line 106, 107, 124 and 114, 116, 126
+        code smell: duplicate code
+        reason: these lines are repeated:
+                Product product : globalInventoryData.products.values()
+                and, total += product.finalPrice * product.stock
+    f)  the whole file
+        code smell: large class
+        reason: its doing a lot of work, violates SRP
