@@ -21,4 +21,8 @@ public class Order {
     public Map<IFlavor,Integer> getFlavorChoiceAndAmount() {}
     public Map<IToppings,Integer> getToppingChoiceAndAmount() {}
     public IContainer getContainer() {}
+
+    public double getTotalPrice() {
+        // return total price
+    }
 }
