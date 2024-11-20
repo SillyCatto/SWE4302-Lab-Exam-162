@@ -13,9 +13,9 @@ public class FlavorPriceCalculatorTest {
 
     @Test
     public void testMintChocolateChipPrice() {
-        MintChocolateChip fudge = new MintChocolateChip();
-        asserEquals(3.00, fudge.getPricePerScoop());
+        MintChocolateChip mintChip = new MintChocolateChip();
+        asserEquals(3.00, mintChip.getPricePerScoop());
     }
 
-    
+
 }

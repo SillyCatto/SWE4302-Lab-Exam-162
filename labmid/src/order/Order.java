@@ -15,7 +15,9 @@ public class Order {
             Map<IFlavor,Integer> flavorChoiceAndAmount,
             Map<IToppings,Integer> toppingChoiceAndAmount,
             IContainer container) {
-
+        this.flavorChoiceAndAmount = flavorChoiceAndAmount;
+        this.toppingChoiceAndAmount = toppingChoiceAndAmount;
+        this.container = container;
     }
 
     public Map<IFlavor,Integer> getFlavorChoiceAndAmount() {}

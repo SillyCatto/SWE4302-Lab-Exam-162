@@ -24,7 +24,7 @@ public class OrderCreator {
         System.out.println("1. Chocolate Fudge");
         System.out.println("2. Mint Chocolate Chip");
         // more options...
-
+        // build map from user choice and amount
     }
 
     public Order createOrder(){
