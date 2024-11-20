@@ -26,4 +26,12 @@ public class OrderCreator {
         // more options...
 
     }
+
+    public Order createOrder(){
+        Order order = new Order();
+        order.buildOrder(flavorChoiceAndAmount,
+                toppingChoiceAndAmount,
+                container);
+        return order;
+    }
 }
