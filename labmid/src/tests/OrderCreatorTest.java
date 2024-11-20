@@ -16,7 +16,7 @@ public class OrderCreatorTest {
         Map<IFlavor,Integer> flavorChoiceAndAmount = new HashMap<IFlavor,Integer>();
         Map<IToppings,Integer> toppingChoiceAndAmount = new HashMap<>();
         IContainer container = new PaperCup();
-        
+
 
     }
 }
