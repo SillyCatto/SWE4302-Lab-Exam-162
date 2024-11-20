@@ -1,12 +1,12 @@
-package toppings;
+package tests;
 
 import container.IContainer;
 import container.PaperCup;
 import flavors.IFlavor;
 import order.Order;
 import org.junit.jupiter.api.Test;
+import toppings.IToppings;
 
-import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
